@@ -41,7 +41,7 @@ Select a payer (and optionally filter by drug) to see the full submission route.
 You can also **manually override** any field if you've verified something independently. The override shows an "Overridden" badge for the session.
 
 Other things in the detail view:
-- **Risk panel** — scores the overall route 0–100 based on conflict density, data staleness, submission method reliability, and turnaround times
+- **Risk panel** — scores the overall route 0–100 based on conflict density, data staleness, submission method reliability, and turnaround times. The score updates live — adding a new source, resolving a conflict, or overriding a field recalculates it instantly
 - **Approval history** — a quarterly chart showing non-denial vs. denial-letter source events over time, sized to match the risk panel
 - **Risk Overview** — a nav bar toggle that shows a multi-payer risk bar chart so you can compare risk scores across all payers at once
 - **Export** — download the full reconciled route as JSON
